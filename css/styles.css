@@ -92,3 +92,33 @@ body {
   font-weight: 700;
   font-style: italic;
 }
+
+/* Base style */
+.img-responsive {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; /* Full width by default */
+  max-width: 100px; /* Max width on smaller screens */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .img-responsive {
+    max-width: 150px; /* Adjust size for medium screens */
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .img-responsive {
+    max-width: 200px; /* Adjust size for large screens */
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .img-responsive {
+    max-width: 250px; /* Adjust size for extra large screens */
+  }
+}
